@@ -13,8 +13,8 @@ monorepo that is both.
 
 ## Non-negotiable: self-hosted only
 
-CryptoAPIs never runs this process, and **we do not offer a hosted version** — decided deliberately,
-not a default. Hosting it would mean holding merchants' upstream credentials, sitting in
+CryptoAPIs never runs this process, and **we do not offer a hosted version** — decided deliberately
+(BL-0162), not a default. Hosting it would mean holding merchants' upstream credentials, sitting in
 the cleartext path of their tool arguments and results, taking on a GDPR data-processor role, and
 owing uptime on their revenue. Self-hosting removes the question instead of answering it.
 

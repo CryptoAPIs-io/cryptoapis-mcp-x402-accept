@@ -1,7 +1,7 @@
 {
   "name": "@cryptoapis-io/mcp-x402-accept",
   "mcpName": "io.github.CryptoAPIs-io/mcp-x402-accept",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Self-hosted MCP proxy that puts an x402 paywall in front of an EXISTING MCP server — charge agents per tool call without changing the server's code.",
   "license": "MIT",
   "type": "module",
@@ -32,9 +32,9 @@
     "zod": "^3.25.0"
   },
   "devDependencies": {
-    "@types/node": "^25.9.5",
+    "@types/node": "^25.0.3",
     "rimraf": "^5.0.0",
     "tsx": "^4.0.0",
-    "typescript": "^5.9.3"
+    "typescript": "^5.5.4"
   }
 }
